@@ -1,30 +1,31 @@
 import React from 'react';
 import { Button } from './Button';
+import { Button2 } from './Button2';
 import './HeroSection.css';
 import '../App.css';
-import video from '../videos/video-2.mp4';
+
 
 
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video autoPlay muted loop src={video} />
-            <h1>Portfolio</h1>
-            <p>Some projects..</p>
+            <h1>Welcome To My Portfolio</h1>
+            <p>I am computer science student in University of Turku</p>
             <div className="hero-btns">
                 <Button 
                 className='btns' 
                 buttonStyle='btn--outline'
                 buttonSize='btn--large'
                 >
-                    Get started
+                    About me
                 </Button>
-                <Button className='btns' 
-                buttonStyle='btn--primary'
+                <Button2
+                className='btns' 
+                buttonStyle='btn--outline'
                 buttonSize='btn--large'
                 >
-                    Yolo
-                </Button>
+                    My Projects
+                </Button2>
             </div>
         </div>
     )
