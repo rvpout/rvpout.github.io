@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { Button } from './Button'
 import './Footer.css';
+import pic10 from '../images/Me.jpg';
 
 function Footer() {
     return (
@@ -38,6 +39,9 @@ function Footer() {
             </div>
             <section className="social-media">
                <div className="social-media-wrap">
+                    <div className='cv-container-logo'>
+                        <img src={pic10} alt='me' id='img'/>
+                    </div>
                    <samll className="website-rights">Roope Pouta © 2021</samll>
                    <div className="social-icons">
                        <Link className="social-icon-link facebook"

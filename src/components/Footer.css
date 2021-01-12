@@ -92,6 +92,19 @@
 }
 
 /* Social Icons */
+
+.cv-container-logo {
+    
+    width: 10%;
+    height: 25%;
+}
+
+#img {
+    width: 100%;
+    height: 100%;
+}
+
+
 .social-icon-link {
     color: #fff;
     font-size: 24px;
