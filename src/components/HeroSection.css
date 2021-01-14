@@ -1,11 +1,3 @@
-/*video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-}*/
-  
 .hero-container {
     background: url('../images/image10.jpg') center center/cover no-repeat;
     height: 100vh;
@@ -22,7 +14,6 @@
     color: #fff;
     font-size: 100px;
     margin-top: -100px;
-
 }
 
 .hero-container > p {
@@ -30,6 +21,7 @@
     color: #fff;
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    text-align: center;
 }
 
 .hero-btns {
@@ -45,6 +37,7 @@
         font-size: 70px;
         margin-top: -150px;    
     }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -54,7 +47,7 @@
     }
 
     .hero-container > p {
-        font-size: 30px;
+        width: 90%;
     }
 
     .btn-mobile {
