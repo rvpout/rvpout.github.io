@@ -53,7 +53,7 @@ function Cards() {
                         src={pic5}
                         text="My portfolio. Coded with React"
                         label='Portfolio'
-                        path={{pathname: "https://github.com/rvpout/rvpout.github.io"}}
+                        path={{pathname: "https://github.com/rvpout/Portfolio"}}
                         />
                     </ul>
                 </div>
